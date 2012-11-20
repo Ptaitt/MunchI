@@ -13,14 +13,29 @@
 <div id='content'>
   <div id="leftliner">
     <div id="leftside">
-      <div id="boardspaceliner">
-        <div id="boardspace">
-          board space
-        </div><!--boardspace-->
-      </div><!--boarspaceliner-->
+      <div id="publicspaceliner">
+        <div id="publicspace">
+          <div id="opponentsliner">
+            <div id="opponents" class="innerliner">
+              <?php include("includes/opponents.html"); ?>
+            </div><!--opponents-->
+          </div><!--opponentsliner"-->
+          <div id="boardliner">
+            <div id="board" class="innerliner">
+              <?php include("includes/board.html"); ?>
+            </div><!--board-->
+          </div><!--boardliner-->
+          <div id="pubplayerliner">
+            <div id="pubplayer" class="innerliner">
+              <?php include("includes/pubplayer.html"); ?>
+            </div><!--pubplayer-->
+          </div><!--pubplayerliner-->
+        </div><!--publicspace-->
+      </div><!--publicspaceliner-->
       <div id="playerspaceliner">
-        <div id="playerspace"><!-- player's hand/lvl/cmbt -->
-          playerspace
+        <div id="playerspace" class="innerliner">
+        <!-- player's hand/lvl/cmbt -->
+          <?php include("includes/playerspace.html"); ?>
         </div><!--playerspace"-->
       </div><!--playerspaceliner"-->
     </div><!--leftside-->

@@ -1,9 +1,15 @@
 html,body{
   padding:0px;
+  font-family:arial;
   
 }
 body{
   background-color:black;
+}
+.innerliner{
+  position:relative;
+  height:100%;
+  overflow:auto;
 }
 #content{
   height:inherit;
@@ -53,13 +59,12 @@ body{
   overflow:auto;
   border:1px solid black;
 }
-#boardspace{
+#publicspace{
 
 }
 #playerspace{
-  padding:5px;
 }
-#boardspaceliner{
+#publicspaceliner{
   position:relative;
   height:80%;
 }
@@ -68,4 +73,32 @@ body{
   height:20%;
   background-color:yellow;
   border:1px solid black;
+}
+#opponents{
+  overflow:auto;
+  height:100%;
+}
+#opponentsliner{
+  position:relative;
+  height:20%;
+}
+#board{
+  background-color:blue;
+  overflow:auto;
+  height:100%;
+}
+#boardliner{
+  position:relative;
+  height:60%;
+  background-color:red;
+}
+#pubplayer{
+  position:relative;
+  height:100%;
+  overflow:auto;
+
+}
+#pubplayerliner{
+  position:relative;
+  height:20%;
 }
