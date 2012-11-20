@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<deck>
+  <card>
+    <name>Gazebo</name>
+    <type>Door</type>
+    <description>
+      Level 8
+      No one can help you.
+      You must face the gazebo alone.
+      <i>Bad Stuff</i>: you lose 3 levels!
+      2 Treasures
+    </description>
+    <image>
+      <src>blah.jpg</src>
+    </image>
+    <expansion>core</expansion>
+  </card>
+</deck>

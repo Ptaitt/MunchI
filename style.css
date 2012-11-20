@@ -1,0 +1,54 @@
+body{
+  background-color:black;
+  font-family:arial;
+
+}
+#content{
+/*750 px x 500px*/
+min-width:750px;
+min-height:500px;
+max-height:99.5%;
+height:99.5%;
+width:100%;
+max-width:100%;
+overflow:auto;
+}
+#players{
+  /*height:49.5%;*/
+  padding-top:5px;
+  background-color:white;
+  margin-bottom:5px;
+}
+#playerslist{
+  height:49.5%;
+  overflow:auto;
+}
+.player{
+  background-color:gray;
+  margin-bottom:2px;
+  padding-left:14px;
+}
+.player:hover{
+  background-color:black;
+  color:gray;
+}
+#top{
+  background-color:green;
+}
+#bottom{
+  background-color:yellow;
+}
+#top,#bottom{
+  overflow:auto;
+  max-height:50%;
+  height:50%;  
+  width:69.5%;
+  float:left;
+}
+#sidebar{
+  overflow:auto;
+  background-color:blue;
+  width:29.5%;
+  float:right;
+  height:99.5%;
+}
