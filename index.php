@@ -4,9 +4,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     </script>
-    <script src="Scripts/Debug.js"></script>
-    <script src="Scripts/.js"></script>
+    <script type="text/javascript" src="Scripts/Debug.js"></script>
+    <script type="text/javascript" src="Scripts/MunchI.js"></script>
+    <script type="text/javascript" src="Scripts/interface.js"></script>
+    
   <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="styles/dockstyle.css" />
 </head>
 <body>
 <div id='debug'></div>
