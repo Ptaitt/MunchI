@@ -1,13 +1,13 @@
 munchi={};
 munchi.dockinit=function(){
-$('#dock').Fisheye(
+    $('#dock').Fisheye(
         {
           maxWidth: 12,
           items: 'a',
           itemsText: 'span',
           container: '.dock-container',
           itemWidth: 40,
-          proximity: 90,
+          proximity: 45,
           halign : 'center'
         }
       )
@@ -18,7 +18,7 @@ $('#dock').Fisheye(
           itemsText: 'span',
           container: '.dock-container',
           itemWidth: 40,
-          proximity: 80,
+          proximity: 45,
           alignment : 'left',
           valign: 'bottom',
           halign : 'center'
@@ -31,7 +31,7 @@ $('#dock').Fisheye(
           itemsText: 'span',
           container: '.dock-container',
           itemWidth: 40,
-          proximity: 80,
+          proximity: 45,
           alignment : 'left',
           valign: 'bottom',
           halign : 'center'
