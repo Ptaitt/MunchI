@@ -6,6 +6,13 @@ html,body{
 body{
   background-color:black;
 }
+.boardlabel{
+  position:absolute;
+  bottom:3px;
+  right:10px;
+  font-size:small;
+  text-align:center;
+}
 .innerliner{
   position:relative;
   height:100%;

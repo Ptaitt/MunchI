@@ -33,7 +33,15 @@ a.dock-item {
 }
 .dock-item span {
 	display: none; 
-	padding-left: 20px;
+  margin-left:10px;
+}
+.spanlabel{
+  display:inline;
+  max-width:90%;
+  white-space:nowrap;
+  background-color:white;
+  padding-left:3px;
+  padding-right:3px;
 }
 
 /* dock2 - bottom */
