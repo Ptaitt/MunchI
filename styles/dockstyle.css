@@ -42,6 +42,7 @@ a.dock-item {
   background-color:white;
   padding-left:3px;
   padding-right:3px;
+  border-radius:5px;
 }
 
 /* dock2 - bottom */
