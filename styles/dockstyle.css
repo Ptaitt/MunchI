@@ -43,6 +43,7 @@ a.dock-item {
   padding-left:3px;
   padding-right:3px;
   border-radius:5px;
+  z-index:99;
 }
 
 /* dock2 - bottom */

@@ -40,6 +40,11 @@
         <!-- player's hand/lvl/cmbt -->
           <?php include("includes/playerspace.html"); ?>
         </div><!--playerspace"-->
+        <div id="countersliner">
+          <div id="counters">
+            <?php include("includes/counters.html"); ?>
+          </div> <!--counters-->
+        </div><!--countersliner-->
       </div><!--playerspaceliner"-->
     </div><!--leftside-->
   </div><!--leftliner-->
@@ -47,12 +52,12 @@
     <div id="rightside">
       <div id="infoliner">
         <div id="info">
-          <center>info pane</center>
+          <?php include("includes/info.html"); ?>
         </div><!--info-->
       </div><!--infoliner-->
       <div id="chatarealiner">
         <div id="chatarea">
-          <center>chat area</center>
+          <?php include("includes/chatarea.html"); ?>
         </div> <!--chatarea-->
       </div><!--chatarealiner-->
     </div><!--rightside-->
