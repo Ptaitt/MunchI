@@ -188,3 +188,70 @@ body{
   height:100%;
   overflow:auto;
 }
+.padding{
+  padding:3px;
+  height:95%;
+  min-height:95%;
+  overflow:auto;
+}
+#decks{
+  width:50%;
+  overflow:auto;
+  float: right;
+  /*background-color:green;*/
+  min-height:100%;
+}
+#loot{
+
+}
+#doors{
+
+}
+#mods{
+  width:50%;
+  overflow:auto;
+  float: left;
+  /*background-color:yellow;*/
+  min-height:100%;
+
+}
+#topmods{
+  background-color:green;
+  min-height:40%;
+  height:40%;
+  overflow:auto;
+}
+#botmods{
+  background-color:yellow;
+  min-height:40%;
+  height:40%;
+  overflow:auto;
+}
+#time{
+  display:inline;
+}
+#timerdisplay{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor:default;
+  display:inline;
+  padding-right:2px;
+  padding-left:2px;
+  border:2px solid black;
+  background-color:white;
+  color:black;
+  display:inline;
+  margin-left:3px;
+  margin-right:3px;
+  padding-right:3px;
+  padding-left:3px;
+  border-radius:5px;
+}
+#timerwrapper{
+  min-height:10%;
+  height:10%;
+}
